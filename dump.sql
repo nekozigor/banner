@@ -1,6 +1,5 @@
 CREATE DATABASE banner;
 
-/*383 maximum for index */
 CREATE TABLE banner.banner(
 	ip_address INT UNSIGNED NOT NULL,
 	user_agent VARCHAR(383) NOT NULL,
